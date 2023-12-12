@@ -376,6 +376,7 @@ export interface ApiHeroHero extends Schema.CollectionType {
   attributes: {
     hero_slogan: Attribute.String;
     hero_bottom_slogan: Attribute.String;
+    hero_image: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

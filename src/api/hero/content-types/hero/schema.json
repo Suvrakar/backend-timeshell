@@ -17,6 +17,16 @@
     },
     "hero_bottom_slogan": {
       "type": "string"
+    },
+    "hero_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
