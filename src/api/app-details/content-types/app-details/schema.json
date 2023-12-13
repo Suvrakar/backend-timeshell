@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_detailes",
+  "info": {
+    "singularName": "app-details",
+    "pluralName": "app-detailes",
+    "displayName": "app-details"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
